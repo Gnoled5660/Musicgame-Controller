@@ -1,5 +1,18 @@
 # Musicgame-Controller
 
+# Description
+This is an arcade like controller, designed for the Musicgame by bakedcloudz (GitHub Repo: ...). It has four interactive buttons and one joystick. Next to these features, it also has a speaker on the side and a tft display. While the controller is inactive or is not being used, it will play a retro arcade like music in the background. All this is powered by a Raspberry Pi Pico 2.
+
+# Motivation
+The reason we designed this was because bakedcloudz project lacked of an interactive controller for her arcade game. Therefore, we wanted to design another controller for that project.
+
+# PCB
+
+# Firmware
+The firmware was written in micropython. Most of libraries are standard libraries provided by micropico. However, we had to download an external library for the tft display. The program begins with playing a retro music until one button is clicked. Then, it stops playing the music in a loop and starts listening to the actions that the user might take. Once a button or the joystick is pressed, it sends a message to the computer with the print() function. The other projects code has to read the lines with serial.readline() to decide which actions to make next.
+
+# Assembling
+
 # BOM
 |Name                   |Description                  |Links                                                                                                                                                                                                                                                                                                                                                                                                                            |Quantity|Cost |
 |-----------------------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----|
