@@ -43,7 +43,7 @@ Depending on whether you want to color the music notes, there two versions of th
 <img width="568" height="367" alt="Bildschirmfoto 2026-06-19 um 22 34 19" src="https://github.com/user-attachments/assets/02393651-e786-4bcf-95e2-5c3bf408d20e" />
 
 # Zine
-![pic1](Assests/Musicgame-Controller.png)
+![pic1](Assets/Musicgame-Controller.png)
 
 
 # BOM
