@@ -32,7 +32,7 @@ There are a few components that need to be screwed on to the board. These compon
 
 <img width="716" height="456" alt="Bildschirmfoto 2026-06-20 um 15 49 10" src="https://github.com/user-attachments/assets/e2552263-bd1a-43e1-b675-1e91acef6031" />
 
-Many components need to be soldered on to the PCB too. It is recommended to use header pins between the Pico 2 board and the PCB.
+Many components need to be soldered on to the PCB too. It is recommended to use header pins between the Pico 2 board and the PCB. After everything is soldered, you need the connection cables to connect the PCB with the buttons and joysticks. Another cable is used to connect the amplifier with the speaker.
 
 <img width="778" height="554" alt="Bildschirmfoto 2026-06-20 um 15 53 17" src="https://github.com/user-attachments/assets/bcd396f6-dd93-4a9e-8c32-c4ef43175338" />
 
