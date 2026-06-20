@@ -41,7 +41,7 @@ Depending on whether you want to color the music notes, there two versions of th
 <img width="665" height="435" alt="Bildschirmfoto 2026-06-19 um 22 34 00" src="https://github.com/user-attachments/assets/37b65181-35ed-4373-b576-5b562406e68d" />
 <img width="568" height="367" alt="Bildschirmfoto 2026-06-19 um 22 34 19" src="https://github.com/user-attachments/assets/02393651-e786-4bcf-95e2-5c3bf408d20e" />
 
-
+# Zine
 <img width="2820" height="4000" alt="Your paragraph text (5 83 x 8 27 in)-3" src="https://github.com/user-attachments/assets/92d511ea-586e-44e6-b604-1d1262ce99e2" />
 
 
