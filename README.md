@@ -36,6 +36,12 @@ Many components need to be soldered on to the PCB too. It is recommended to use 
 
 <img width="778" height="554" alt="Bildschirmfoto 2026-06-20 um 15 53 17" src="https://github.com/user-attachments/assets/bcd396f6-dd93-4a9e-8c32-c4ef43175338" />
 
+Depending on whether you want to color the music notes, there two versions of this controller. As a usual 3D printer cannot print two colors at the same time, the music notes have to be painted later by hand, if they should be colored black.
+
+<img width="665" height="435" alt="Bildschirmfoto 2026-06-19 um 22 34 00" src="https://github.com/user-attachments/assets/37b65181-35ed-4373-b576-5b562406e68d" />
+<img width="568" height="367" alt="Bildschirmfoto 2026-06-19 um 22 34 19" src="https://github.com/user-attachments/assets/02393651-e786-4bcf-95e2-5c3bf408d20e" />
+
+
 <img width="2820" height="4000" alt="Your paragraph text (5 83 x 8 27 in)-3" src="https://github.com/user-attachments/assets/92d511ea-586e-44e6-b604-1d1262ce99e2" />
 
 
