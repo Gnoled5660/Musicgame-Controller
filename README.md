@@ -8,7 +8,19 @@ This is an arcade like controller, designed for the Musicgame by bakedcloudz (Gi
 # Motivation
 The reason we designed this was because bakedcloudz project lacked of an interactive controller for her arcade game. Therefore, we wanted to design another controller for that project.
 
-# PCB
+# PCB and Schematic
+The PCB and schematic was made with KiCAD. Schematic is rather simple: Connect the pins to the buttons and joysticks. As almost every Pico 2 pin is a GPIO pin, almost every pin could be used to connect to the amplifier and tft module. 
+
+<img width="593" height="506" alt="Bildschirmfoto 2026-06-20 um 15 15 44" src="https://github.com/user-attachments/assets/a113e73d-a33d-43f8-bcd7-cef089840797" />
+
+This PCB is a rather simple PCB, where the premade modules are soldered on top of it. There are no components that need to be preassembled. All the components are big enough to be soldered by hand. 
+
+<img width="696" height="556" alt="Bildschirmfoto 2026-06-20 um 15 12 18" src="https://github.com/user-attachments/assets/600b261f-e66d-4bf0-a3dd-9ac8e4507e78" />
+
+This PCB is a two layer PCB, where the red tracks function as signal tracks and the blue tracks as power supply tracks.
+
+<img width="693" height="572" alt="Bildschirmfoto 2026-06-20 um 15 14 18" src="https://github.com/user-attachments/assets/66373466-7d51-44c0-b857-331a8f12b3a8" />
+
 
 # Firmware
 The firmware was written in micropython. Most of libraries are standard libraries provided by micropico. However, we had to download an external library for the tft display. The program begins with playing a retro music until one button is clicked. Then, it stops playing the music in a loop and starts listening to the actions that the user might take. Once a button or the joystick is pressed, it sends a message to the computer with the print() function. The other projects code has to read the lines with serial.readline() to decide which actions to make next.
