@@ -26,6 +26,17 @@ This PCB is a two layer PCB, where the red tracks function as signal tracks and 
 The firmware was written in micropython. Most of libraries are standard libraries provided by micropico. However, we had to download an external library for the tft display. The program begins with playing a retro music until one button is clicked. Then, it stops playing the music in a loop and starts listening to the actions that the user might take. Once a button or the joystick is pressed, it sends a message to the computer with the print() function. The other projects code has to read the lines with serial.readline() to decide which actions to make next.
 
 # Assembling
+There are a few components that need to be screwed on to the board. These components include the PCB, the joystick and the display. Because of that, we designed some holes, where heat threaded inserts can be placed. All components use M3 screws besides the joystick. The joystick requires M5 screws. The buttons can be simply pressed into the holes, which means it doesnt require any screws. 
+
+<img width="743" height="485" alt="Bildschirmfoto 2026-06-20 um 15 48 46" src="https://github.com/user-attachments/assets/c69809ec-a31f-4f61-b8e8-98286952fbed" />
+
+<img width="716" height="456" alt="Bildschirmfoto 2026-06-20 um 15 49 10" src="https://github.com/user-attachments/assets/e2552263-bd1a-43e1-b675-1e91acef6031" />
+
+Many components need to be soldered on to the PCB too. It is recommended to use header pins between the Pico 2 board and the PCB.
+
+<img width="778" height="554" alt="Bildschirmfoto 2026-06-20 um 15 53 17" src="https://github.com/user-attachments/assets/bcd396f6-dd93-4a9e-8c32-c4ef43175338" />
+
+
 
 # BOM
 |Name                   |Description                  |Links                                                                                                                                                                                                                                                                                                                                                                                                                            |Quantity|Cost |
