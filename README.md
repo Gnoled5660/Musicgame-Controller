@@ -4,7 +4,7 @@
 
 
 # Description
-This is an arcade like controller, designed for the Musicgame by bakedcloudz (GitHub Repo: ...). It has four interactive buttons and one joystick. Next to these features, it also has a speaker on the side and a tft display. While the controller is inactive or is not being used, it will play a retro arcade like music in the background. All this is powered by a Raspberry Pi Pico 2.
+This is an arcade like controller, designed for the Musicgame by bakedcloudz (GitHub Repo: https://github.com/wuelaineyuan-bit/MUSICGAME). It has four interactive buttons and one joystick. Next to these features, it also has a speaker on the side and a tft display. While the controller is inactive or is not being used, it will play a retro arcade like music in the background. All this is powered by a Raspberry Pi Pico 2.
 
 # Motivation
 The reason we designed this was because bakedcloudz project lacked of an interactive controller for her arcade game. Therefore, we wanted to design another controller for that project.
